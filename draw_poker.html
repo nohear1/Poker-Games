@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Draw Poker</title>
+</head>
+<body>
+	<img src="title.gif" width=381 height=81>
+	<hr>
+	<form NAME="form1">
+		<table>
+			<tr>
+				<td>
+					<img border=0 src="blank.gif" height=136 width=106>
+				</td>
+				<td>
+					<img border=0 src="blank.gif" height=136 width=106>
+				</td>
+				<td>
+					<img border=0 src="blank.gif" height=136 width=106>
+				</td>
+				<td>
+					<img border=0 src="blank.gif" height=136 width=106>
+				</td>
+				<td>
+					<img border=0 src="blank.gif" height=136 width=106>
+				</td>
+				
+				<td></td>
+			</tr>
+			<tr>
+				<td>
+					<a href="#" onClick="Hold(1);">
+						<img border=0 src="hold.gif" height=50 width=106>
+					</a>
+				</td>
+				<td>
+					<a href="#" onClick="Hold(2);">
+						<img border=0 src="hold.gif" height=50 width=106>
+					</a>
+				</td>
+				<td>
+					<a href="#" onClick="Hold(3);">
+						<img border=0 src="hold.gif" height=50 width=106>
+					</a>
+				</td>
+				<td>
+					<a href="#" onClick="Hold(4);">
+						<img border=0 src="hold.gif" height=50 width=106>
+					</a>
+				</td>
+				<td>
+					<a href="#" onClick="Hold(5);">
+						<img border=0 src="hold.gif" height=50 width=106>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<strong>Total<br/>Score:</strong>
+					<input type="text" size=6 name="total" value="100">
+				</td>
+				<td colspan=2> <strong>Current<br/>Hand:</strong>
+					<input type="text" size=20 name="message" value="Press DEAL to Begin.">
+				</td>
+				<td>
+				</td>
+				<td>
+					<a href="#" onClick="DealDraw();">
+						<img border=0 src="deal.gif" height=50 width=106>
+					</a>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<script src="draw_poker.js"></script>
+</body>
+
+</html>
